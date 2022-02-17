@@ -178,7 +178,9 @@ public class MainActivity<mDrawlayout> extends AppCompatActivity implements Navi
         }
         return true;
     }
-
+    public boolean checkpass(){
+        return true;
+    }
 
 }
 
