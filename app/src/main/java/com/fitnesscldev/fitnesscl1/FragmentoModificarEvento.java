@@ -100,7 +100,6 @@ public class FragmentoModificarEvento extends Fragment {
 
 
 
-
         editBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

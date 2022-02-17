@@ -57,6 +57,7 @@ public class MainActivity<mDrawlayout> extends AppCompatActivity implements Navi
     FirebaseFirestore fStore;
     String userId;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -118,6 +119,11 @@ public class MainActivity<mDrawlayout> extends AppCompatActivity implements Navi
 
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        Toast.makeText(this, "Adios", Toast.LENGTH_LONG).show();
     }
 
     public void Logout(View view){
