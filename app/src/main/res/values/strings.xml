@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">     FitnessCL</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="Editar">Editar</string>
+    <string-array name="tipoDeporte">
+        <item>Fútbol</item>
+        <item>Básquetbol</item>
+        <item>Tenis</item>
+        <item>Balonmano</item>
+    </string-array>
+</resources>

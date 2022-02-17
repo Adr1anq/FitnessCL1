@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/perfilD"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/favoritos"
+                android:icon="@drawable/ic_favorite_border_black_24dp"
+                android:title="Favoritos" />
+
+        </menu>
+
+    </item>
+    <item android:title="Eventos">
+        <menu>
+            <item
+                android:id="@+id/crear_evento"
+                android:icon="@drawable/ic_add_circle_black_24dp"
+                android:title="Agregar Evento" />
+            <item
+                android:id="@+id/modificar_evento"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="Modificar Evento" />
+
+            <item
+                android:id="@+id/eliminar_evento"
+                android:icon="@drawable/ic_delete_forever_black_24dp"
+
+                android:title="Eliminar Evento" />
+            <item
+                android:id="@+id/mostrar_evento"
+                android:icon="@drawable/ic_stars_black_24dp"
+
+                android:title="Mostrar Eventos  " />
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>
